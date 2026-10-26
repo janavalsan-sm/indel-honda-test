@@ -25513,3 +25513,276 @@ right:5px
 display:none!important
 }
 
+/* ==========================================================================
+   Honda Amaze 3G Variant & Price Chart Enhancements
+   ========================================================================== */
+.amaze-variant-price-summary {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 18px 0 10px;
+}
+.amaze-variant-price-summary .price-pill {
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-align: center;
+  min-width: 190px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.amaze-variant-price-summary .base-pill {
+  background: #fdf5f5;
+  border: 1px solid #ffd0d0;
+}
+.amaze-variant-price-summary .pearl-pill {
+  background: #f0f4f8;
+  border: 1px solid #d0e0ec;
+}
+.amaze-variant-price-summary .pill-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #666;
+}
+.amaze-variant-price-summary .base-pill .pill-value {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #e60121;
+}
+.amaze-variant-price-summary .pearl-pill .pill-value {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a4b75;
+}
+.amaze-variant-price-summary .pill-opt {
+  display: block;
+  font-size: 11px;
+  color: #777;
+  margin-top: 2px;
+}
+.amaze-tab-action-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0 10px;
+  flex-wrap: wrap;
+}
+.amaze-btn-book {
+  background: #e60121;
+  color: #fff !important;
+  font-weight: 600;
+  padding: 8px 22px;
+  border-radius: 25px;
+  text-decoration: none !important;
+  display: inline-block;
+  font-size: 13px;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(230,1,33,0.3);
+}
+.amaze-btn-book:hover {
+  background: #b50019;
+  transform: translateY(-2px);
+  color: #fff !important;
+}
+.amaze-btn-chart {
+  background: #232323;
+  color: #fff !important;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 25px;
+  text-decoration: none !important;
+  display: inline-block;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+.amaze-btn-chart:hover {
+  background: #444;
+  color: #fff !important;
+}
+.amaze-price-chart-section {
+  margin-top: 45px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  border: 1px solid #e9ecef;
+  padding: 28px 24px;
+  text-align: left;
+  clear: both;
+}
+.amaze-chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid #e60121;
+}
+.amaze-chart-header .badge-sub {
+  display: inline-block;
+  background: #fdf0f0;
+  color: #e60121;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 3px 10px;
+  border-radius: 12px;
+  margin-bottom: 6px;
+}
+.amaze-chart-header h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #111;
+}
+.amaze-chart-header .chart-subtitle {
+  margin: 4px 0 0;
+  color: #666;
+  font-size: 13px;
+}
+.amaze-chart-header .badge-state {
+  background: #111;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.amaze-price-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+.amaze-price-table {
+  margin-bottom: 0 !important;
+  font-size: 13px;
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 1100px;
+}
+.amaze-price-table thead tr:first-child th {
+  background: #1e242b !important;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle !important;
+  border: 1px solid #2d3748 !important;
+  padding: 10px 8px;
+}
+.amaze-price-table thead tr.sub-headers th {
+  background: #2b3542 !important;
+  color: #cbd5e0 !important;
+  font-weight: 500;
+  font-size: 11px;
+  text-align: center;
+  border: 1px solid #3a4756 !important;
+  padding: 7px 6px;
+}
+.amaze-price-table tbody td {
+  padding: 9px 10px !important;
+  vertical-align: middle !important;
+  border: 1px solid #e2e8f0 !important;
+}
+.amaze-price-table td.td-variant-name {
+  background: #f8fafc;
+  font-size: 13px;
+  color: #1a202c;
+  vertical-align: middle !important;
+  text-align: center;
+  min-width: 120px;
+}
+.amaze-price-table .trans-tag {
+  display: inline-block;
+  font-size: 10px;
+  color: #4a5568;
+  background: #edf2f7;
+  padding: 2px 7px;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+.amaze-price-table .trans-tag.cvt {
+  color: #2b6cb0;
+  background: #ebf8ff;
+}
+.amaze-price-table td.td-color-badge {
+  text-align: center;
+}
+.badge-base {
+  background: #f1f5f9;
+  color: #334155;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.badge-pearl {
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.amaze-price-table td.td-num {
+  text-align: right;
+  font-family: inherit;
+  font-size: 12.5px;
+  white-space: nowrap;
+}
+.amaze-price-table td.td-highlight {
+  font-weight: 700;
+  color: #e60121;
+  background: #fff5f5;
+  font-size: 13.5px;
+}
+.amaze-price-table td.td-highlight-opt {
+  font-weight: 700;
+  color: #1a202c;
+  background: #edf2f7;
+  font-size: 13.5px;
+}
+.amaze-price-table td.td-opt {
+  color: #4a5568;
+  font-size: 11.5px;
+}
+.amaze-info-footer {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.amaze-info-footer .info-box {
+  flex: 1 1 350px;
+  padding: 14px 18px;
+  border-radius: 8px;
+  font-size: 12.5px;
+  line-height: 1.6;
+}
+.amaze-info-footer .color-info {
+  background: #f8fafc;
+  border-left: 3px solid #e60121;
+}
+.amaze-info-footer .fee-info {
+  background: #f8fafc;
+  border-left: 3px solid #2b6cb0;
+}
+.amaze-info-footer .info-title {
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #1a202c;
+}
+.amaze-info-footer p {
+  margin: 0 0 4px;
+  color: #4a5568;
+}
+
