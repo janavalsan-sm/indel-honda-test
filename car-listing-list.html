@@ -1633,6 +1633,14 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/moment.min.js"></script>
     <script type="text/javascript" src="js/scripts.js" ></script>
+    <script>
+      // Ensure native custom scrollbar is active and remove any conflicting niceScroll on car tabs
+      jQuery(function($) {
+        if ($.fn.niceScroll) {
+          $('.child-tab-wrapper .nav-tabs').getNiceScroll().remove();
+        }
+      });
+    </script>
 
   </body>
 </html>

@@ -20896,9 +20896,39 @@ border-bottom:0;
 margin-top:50px;
 width:40%;
 height:325px;
-overflow:auto;
+overflow-y:auto !important;
+overflow-x:hidden !important;
 float:left;
-text-align:left
+text-align:left;
+
+}
+.child-tab-wrapper .nav-tabs::-webkit-scrollbar
+{
+width:6px;
+background:#efeeee;
+}
+.child-tab-wrapper .nav-tabs::-webkit-scrollbar-button
+{
+display:none;
+width:0;
+height:0;
+}
+.child-tab-wrapper .nav-tabs::-webkit-scrollbar-track
+{
+background:#efeeee;
+}
+.child-tab-wrapper .nav-tabs::-webkit-scrollbar-track-piece
+{
+background:#efeeee;
+}
+.child-tab-wrapper .nav-tabs::-webkit-scrollbar-thumb
+{
+background:#0a252e;
+border-radius:0;
+}
+.child-tab-wrapper .nav-tabs::-webkit-scrollbar-thumb:hover
+{
+background:#000;
 }
 @media (max-width:992px)
 {
