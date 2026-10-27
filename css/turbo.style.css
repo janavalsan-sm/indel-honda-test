@@ -21081,29 +21081,31 @@ height:190px
 }
 .child-tab-wrapper .rq-tab-car-details .large-image-wrapper .image-bg
 {
-position:absolute;
-top:0;
-left:15%;
-background:#e60121;
-display:block;
-width:70%;
-height:100%
+display:none !important;
+visibility:hidden !important;
+opacity:0 !important;
+background:transparent !important;
+width:0 !important;
+height:0 !important
 }
 @media (max-width:992px)
 {
 .child-tab-wrapper .rq-tab-car-details .large-image-wrapper .image-bg
 {
-height:100%
+display:none !important;
+height:0 !important
 }
 
 }
 .child-tab-wrapper .rq-tab-car-details .large-image-wrapper .image-bg.ford
 {
-background:#bce4e6
+display:none !important;
+background:transparent !important
 }
 .child-tab-wrapper .rq-tab-car-details .large-image-wrapper .image-bg.kia
 {
-background:#e6dabc
+display:none !important;
+background:transparent !important
 }
 .child-tab-wrapper .rq-tab-car-details .car-details-option
 {
